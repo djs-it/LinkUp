@@ -1,0 +1,69 @@
+
+planet5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0003_Layer-3
+  rotate: false
+  xy: 1523, 1856
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+_0004_Layer-4
+  rotate: false
+  xy: 1292, 1350
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+_0005_Layer-5
+  rotate: false
+  xy: 206, 782
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+_0006__Ellipse_ + _Ellipse_ + _Ellipse_ + _Ellipse_
+  rotate: false
+  xy: 2, 2
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+_0007__Group_
+  rotate: false
+  xy: 1292, 1434
+  size: 229, 488
+  orig: 229, 488
+  offset: 0, 0
+  index: -1
+_0008__Group_
+  rotate: false
+  xy: 2, 885
+  size: 1288, 1037
+  orig: 1288, 1037
+  offset: 0, 0
+  index: -1
+_0010__Group_
+  rotate: false
+  xy: 2, 70
+  size: 113, 209
+  orig: 113, 209
+  offset: 0, 0
+  index: -1
+_0011__Group_
+  rotate: false
+  xy: 2, 281
+  size: 202, 602
+  orig: 202, 602
+  offset: 0, 0
+  index: -1
+_0012__Group_
+  rotate: false
+  xy: 117, 198
+  size: 50, 81
+  orig: 50, 81
+  offset: 0, 0
+  index: -1

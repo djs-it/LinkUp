@@ -1,0 +1,132 @@
+
+planet3.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000__Group_
+  rotate: false
+  xy: 2, 381
+  size: 1244, 752
+  orig: 1244, 752
+  offset: 0, 0
+  index: -1
+_0002__Group_
+  rotate: false
+  xy: 2581, 1658
+  size: 494, 387
+  orig: 494, 387
+  offset: 0, 0
+  index: -1
+_0003__Path_
+  rotate: false
+  xy: 2, 19
+  size: 418, 360
+  orig: 418, 360
+  offset: 0, 0
+  index: -1
+_0004__Group_
+  rotate: false
+  xy: 1374, 1274
+  size: 1205, 771
+  orig: 1205, 771
+  offset: 0, 0
+  index: -1
+_0006__Group_
+  rotate: false
+  xy: 422, 26
+  size: 190, 180
+  orig: 190, 180
+  offset: 0, 0
+  index: -1
+_0007__Path_
+  rotate: false
+  xy: 733, 235
+  size: 208, 144
+  orig: 208, 144
+  offset: 0, 0
+  index: -1
+_0008__Group_
+  rotate: false
+  xy: 3402, 1903
+  size: 239, 142
+  orig: 239, 142
+  offset: 0, 0
+  index: -1
+_0009__Group_
+  rotate: false
+  xy: 3077, 1714
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+_0010__Group_
+  rotate: false
+  xy: 2581, 1354
+  size: 395, 302
+  orig: 395, 302
+  offset: 0, 0
+  index: -1
+_0011__Path_
+  rotate: false
+  xy: 3077, 1757
+  size: 323, 288
+  orig: 323, 288
+  offset: 0, 0
+  index: -1
+_0012__Group_
+  rotate: false
+  xy: 2978, 1600
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+_0014__Ellipse_ + _Path_
+  rotate: false
+  xy: 422, 208
+  size: 309, 171
+  orig: 309, 171
+  offset: 0, 0
+  index: -1
+_0015__Group_
+  rotate: false
+  xy: 3402, 1886
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+_0016__Group_
+  rotate: true
+  xy: 2, 2
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+_0017__Group_
+  rotate: false
+  xy: 1248, 997
+  size: 80, 136
+  orig: 80, 136
+  offset: 0, 0
+  index: -1
+_0018__Group_
+  rotate: false
+  xy: 2581, 1274
+  size: 71, 78
+  orig: 71, 78
+  offset: 0, 0
+  index: -1
+_0019__Group_
+  rotate: false
+  xy: 1374, 1168
+  size: 105, 104
+  orig: 105, 104
+  offset: 0, 0
+  index: -1
+_0020__Ellipse_
+  rotate: false
+  xy: 2, 1135
+  size: 1370, 910
+  orig: 1370, 910
+  offset: 0, 0
+  index: -1

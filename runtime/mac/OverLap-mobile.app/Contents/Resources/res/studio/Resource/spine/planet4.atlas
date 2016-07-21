@@ -1,0 +1,104 @@
+
+planet4.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000__Group_
+  rotate: false
+  xy: 3976, 674
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: -1
+_0001__Group_
+  rotate: false
+  xy: 1350, 6
+  size: 89, 73
+  orig: 89, 73
+  offset: 0, 0
+  index: -1
+_0002__Group_
+  rotate: false
+  xy: 2869, 15
+  size: 124, 133
+  orig: 124, 133
+  offset: 0, 0
+  index: -1
+_0003__Group_
+  rotate: false
+  xy: 3615, 191
+  size: 216, 240
+  orig: 216, 240
+  offset: 0, 0
+  index: -1
+_0004__Group_
+  rotate: false
+  xy: 3833, 265
+  size: 153, 166
+  orig: 153, 166
+  offset: 0, 0
+  index: -1
+_0005__Group_
+  rotate: false
+  xy: 3833, 195
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+_0006__Group_
+  rotate: true
+  xy: 3976, 786
+  size: 204, 117
+  orig: 204, 117
+  offset: 0, 0
+  index: -1
+_0007__Group_
+  rotate: false
+  xy: 3976, 601
+  size: 63, 71
+  orig: 63, 71
+  offset: 0, 0
+  index: -1
+_0008__Path_
+  rotate: false
+  xy: 2995, 63
+  size: 73, 85
+  orig: 73, 85
+  offset: 0, 0
+  index: -1
+_0009__Group_
+  rotate: false
+  xy: 1350, 81
+  size: 1347, 909
+  orig: 1347, 909
+  offset: 0, 0
+  index: -1
+_0010__Group_
+  rotate: false
+  xy: 2699, 150
+  size: 914, 840
+  orig: 914, 840
+  offset: 0, 0
+  index: -1
+_0011__Group_
+  rotate: true
+  xy: 3615, 433
+  size: 557, 359
+  orig: 557, 359
+  offset: 0, 0
+  index: -1
+_0012__Group_
+  rotate: true
+  xy: 2699, 10
+  size: 138, 168
+  orig: 138, 168
+  offset: 0, 0
+  index: -1
+_0013__Ellipse_
+  rotate: false
+  xy: 2, 2
+  size: 1346, 988
+  orig: 1346, 988
+  offset: 0, 0
+  index: -1

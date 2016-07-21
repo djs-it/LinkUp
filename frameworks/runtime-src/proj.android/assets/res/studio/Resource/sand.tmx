@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="42" tilewidth="32" tileheight="32" nextobjectid="2">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="atlas/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="2" columns="2">
+  <image source="atlas/meta_tiles.png" width="67" height="34"/>
+  <tile id="0" probability="2">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="24" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEOgjAMBuCdxIOCNwQTnEEJCirv/3TWZIdlCe3aIfHQw5cd6H5+toTGGNOsoAI1wynY3xP5F3AFjwg30DK6W5cfu4czS+05E7P2B52k/Ufk/vz7fwry78EdDsznHC+3bkAGtglZHSIHBTggM34fLj9f2j9D7F3+jpjDzq9YwPf7ppn8cgHHiHOyCWcs8Sbe33sr9e9MJckP+6/VleqglFJKKfXvPmzFdIw=
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object id="1" name="SpwanPoint" x="54" y="401"/>
+ </objectgroup>
+ <layer name="Meta" width="24" height="42">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPMCQDDxbzSdVDifuxieNTSws3USv8SZEfaPPRzRpMYLC5ZxRggoGOo4G2fxSMglEwCkbBKBgFo2AU0AcAANKGDHI=
+  </data>
+ </layer>
+</map>

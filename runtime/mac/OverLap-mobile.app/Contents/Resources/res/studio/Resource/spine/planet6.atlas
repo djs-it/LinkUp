@@ -1,0 +1,160 @@
+
+planet6.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000__Group_
+  rotate: true
+  xy: 2914, 393
+  size: 110, 60
+  orig: 110, 60
+  offset: 0, 0
+  index: -1
+_0001__Group_
+  rotate: false
+  xy: 2011, 320
+  size: 115, 66
+  orig: 115, 66
+  offset: 0, 0
+  index: -1
+_0002__Group_
+  rotate: false
+  xy: 1676, 145
+  size: 107, 81
+  orig: 107, 81
+  offset: 0, 0
+  index: -1
+_0004__Group_
+  rotate: false
+  xy: 3427, 774
+  size: 236, 241
+  orig: 236, 241
+  offset: 0, 0
+  index: -1
+_0005__Path_
+  rotate: false
+  xy: 1440, 92
+  size: 234, 134
+  orig: 234, 134
+  offset: 0, 0
+  index: -1
+_0006__Group_-copy-5
+  rotate: false
+  xy: 2, 42
+  size: 1436, 973
+  orig: 1436, 973
+  offset: 0, 0
+  index: -1
+_0007__Group_
+  rotate: false
+  xy: 1440, 652
+  size: 1561, 363
+  orig: 1561, 363
+  offset: 0, 0
+  index: -1
+_0008__Group_
+  rotate: false
+  xy: 1440, 388
+  size: 1472, 262
+  orig: 1472, 262
+  offset: 0, 0
+  index: -1
+_0009__Group_
+  rotate: false
+  xy: 3003, 617
+  size: 422, 398
+  orig: 422, 398
+  offset: 0, 0
+  index: -1
+_0010__Path_
+  rotate: false
+  xy: 1440, 228
+  size: 422, 158
+  orig: 422, 158
+  offset: 0, 0
+  index: -1
+_0011__Group_
+  rotate: false
+  xy: 1864, 240
+  size: 145, 146
+  orig: 145, 146
+  offset: 0, 0
+  index: -1
+_0012__Path_
+  rotate: true
+  xy: 2914, 505
+  size: 145, 79
+  orig: 145, 79
+  offset: 0, 0
+  index: -1
+_0013__Group_
+  rotate: false
+  xy: 2128, 333
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+_0014__Group_
+  rotate: false
+  xy: 3777, 942
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+_0015__Path_
+  rotate: false
+  xy: 2, 2
+  size: 80, 38
+  orig: 80, 38
+  offset: 0, 0
+  index: -1
+_0016__Group_
+  rotate: false
+  xy: 3665, 913
+  size: 110, 102
+  orig: 110, 102
+  offset: 0, 0
+  index: -1
+_0017__Group_
+  rotate: false
+  xy: 3427, 670
+  size: 146, 102
+  orig: 146, 102
+  offset: 0, 0
+  index: -1
+_0018_Layer-1
+  rotate: false
+  xy: 1440, 44
+  size: 146, 46
+  orig: 146, 46
+  offset: 0, 0
+  index: -1
+_0019__Path_ + _Path_
+  rotate: false
+  xy: 3665, 851
+  size: 97, 60
+  orig: 97, 60
+  offset: 0, 0
+  index: -1
+_0020__Group_
+  rotate: false
+  xy: 3575, 690
+  size: 88, 82
+  orig: 88, 82
+  offset: 0, 0
+  index: -1
+_0021__Group_
+  rotate: false
+  xy: 1785, 156
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+_0022__Group_
+  rotate: false
+  xy: 2011, 257
+  size: 65, 61
+  orig: 65, 61
+  offset: 0, 0
+  index: -1

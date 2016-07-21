@@ -1,0 +1,187 @@
+
+planet2.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000__Group_
+  rotate: false
+  xy: 3182, 3717
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+_0001__Group_-(merged)
+  rotate: false
+  xy: 1506, 1122
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+_0002__Group_
+  rotate: false
+  xy: 216, 185
+  size: 99, 32
+  orig: 99, 32
+  offset: 0, 0
+  index: -1
+_0003__Group_
+  rotate: false
+  xy: 1177, 958
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1
+_0004__Group_
+  rotate: false
+  xy: 2, 308
+  size: 1173, 859
+  orig: 1173, 859
+  offset: 0, 0
+  index: -1
+_0005__Compound-Path_
+  rotate: false
+  xy: 1177, 905
+  size: 79, 51
+  orig: 79, 51
+  offset: 0, 0
+  index: -1
+_0006__Group_
+  rotate: false
+  xy: 1394, 1022
+  size: 75, 53
+  orig: 75, 53
+  offset: 0, 0
+  index: -1
+_0007__Compound-Path_
+  rotate: false
+  xy: 139, 95
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+_0008__Group_
+  rotate: false
+  xy: 2, 2
+  size: 74, 63
+  orig: 74, 63
+  offset: 0, 0
+  index: -1
+_0009__Compound-Path_
+  rotate: false
+  xy: 2, 67
+  size: 135, 88
+  orig: 135, 88
+  offset: 0, 0
+  index: -1
+_0010__Group_
+  rotate: false
+  xy: 216, 219
+  size: 129, 87
+  orig: 129, 87
+  offset: 0, 0
+  index: -1
+_0011__Compound-Path_
+  rotate: false
+  xy: 1177, 1022
+  size: 215, 145
+  orig: 215, 145
+  offset: 0, 0
+  index: -1
+_0012__Group_
+  rotate: false
+  xy: 3064, 3751
+  size: 211, 149
+  orig: 211, 149
+  offset: 0, 0
+  index: -1
+_0013__Compound-Path_
+  rotate: false
+  xy: 3064, 3672
+  size: 116, 77
+  orig: 116, 77
+  offset: 0, 0
+  index: -1
+_0014__Group_
+  rotate: false
+  xy: 3436, 3970
+  size: 112, 78
+  orig: 112, 78
+  offset: 0, 0
+  index: -1
+_0015__Compound-Path_
+  rotate: false
+  xy: 347, 253
+  size: 78, 53
+  orig: 78, 53
+  offset: 0, 0
+  index: -1
+_0016__Group_
+  rotate: false
+  xy: 1318, 967
+  size: 75, 53
+  orig: 75, 53
+  offset: 0, 0
+  index: -1
+_0017__Compound-Path_
+  rotate: false
+  xy: 3064, 3902
+  size: 217, 146
+  orig: 217, 146
+  offset: 0, 0
+  index: -1
+_0018__Group_
+  rotate: false
+  xy: 2, 157
+  size: 212, 149
+  orig: 212, 149
+  offset: 0, 0
+  index: -1
+_0019__Group_
+  rotate: true
+  xy: 3283, 3912
+  size: 56, 124
+  orig: 56, 124
+  offset: 0, 0
+  index: -1
+_0020__Group_
+  rotate: false
+  xy: 3283, 3970
+  size: 151, 78
+  orig: 151, 78
+  offset: 0, 0
+  index: -1
+_0021__Group_
+  rotate: false
+  xy: 3064, 3633
+  size: 62, 37
+  orig: 62, 37
+  offset: 0, 0
+  index: -1
+_0023__Group_
+  rotate: false
+  xy: 1394, 1077
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+_0024__Image_
+  rotate: false
+  xy: 2, 1169
+  size: 3060, 2879
+  orig: 3060, 2879
+  offset: 0, 0
+  index: -1
+
+planet22.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0025__Image_
+  rotate: false
+  xy: 2, 2
+  size: 2337, 2879
+  orig: 2337, 2879
+  offset: 0, 0
+  index: -1
