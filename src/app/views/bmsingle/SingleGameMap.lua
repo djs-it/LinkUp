@@ -37,7 +37,7 @@ end
 
 
 function SingleGameMap:initView()
-    for i = 1 , 25 do
+    for i = 1 , 50 do
         self["bn"..i] = LevelBn:create(self:getApp(),"bn")
         self["bn"..i]:initView(i,2,true)
         self["bn"..i]:addTo(self["BN"..i])

@@ -272,6 +272,7 @@
           <Folder Name="bmsingle">
             <Project Name="map_game.csd" Type="Node" />
             <Project Name="single_map.csd" Type="Node" />
+            <Project Name="map_1.csd" Type="Node" />
           </Folder>
           <Folder Name="common">
             <Project Name="head.csd" Type="Node" />

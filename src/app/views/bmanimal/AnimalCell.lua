@@ -9,7 +9,7 @@ function AnimalCell:onClick(path,node,funcName)
     if funcName == "btnAnmCell" then
         local function btnCallback(node,eventType)
             print("btnAnmCell")
-            AppViews:getView(LAYERS.animal_main):showPropertyCsd()
+            self:btnAnmCellClick()
         end
         return btnCallback
     else
@@ -20,25 +20,43 @@ function AnimalCell:onClick(path,node,funcName)
     end
 end
 
-function AnimalCell:initView(anmId,isHave,isSelect)
+
+---------------------------
+--num 1 main 2 change
+function AnimalCell:initView(anmId,isHave,isSelect,num)
     self.anmId = anmId
     local anmSp = display.newSprite(string.format("#anm-%s.png",anmId))
     anmSp:addTo(self.animalcsd)
-    
+
     self.isHave =isHave
     if isHave then
         self.nohavecsd:hide()
     else
         self.nohavecsd:show()
     end
-    
+
     if isSelect then
         self.selectcsd:show()
     else
         self.selectcsd:hide()
     end
-    
+
+    self.belong = num
 end
 
+function AnimalCell:btnAnmCellClick()
+    if self.belong == 1 then
+        AppViews:getView(LAYERS.animal_main):showPropertyCsd()
+    elseif self.belong == 2 then
+    end
+end
+
+function AnimalCell:setSelect()
+    self.selectcsd:show()
+end
+
+function AnimalCell:setNoSelect()
+    self.selectcsd:hide()
+end
 
 return AnimalCell

@@ -134,7 +134,7 @@
                   <AbstractNodeData Name="sprite12" ActionTag="-662253002" Tag="14" IconVisible="False" LeftMargin="211.2390" RightMargin="541.7610" TopMargin="424.0000" BottomMargin="910.0000" ctype="SpriteObjectData">
                     <Size X="207.0000" Y="106.0000" />
                     <Children>
-                      <AbstractNodeData Name="anmleft" ActionTag="81543619" Tag="28" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="103.5000" RightMargin="103.5000" TopMargin="53.0000" BottomMargin="53.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                      <AbstractNodeData Name="anmleftcsd" ActionTag="81543619" Tag="28" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="103.5000" RightMargin="103.5000" TopMargin="53.0000" BottomMargin="53.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="103.5000" Y="53.0000" />
@@ -173,7 +173,7 @@
                   <AbstractNodeData Name="sprite34" ActionTag="462920572" Tag="18" IconVisible="False" LeftMargin="527.9075" RightMargin="225.0925" TopMargin="424.0000" BottomMargin="910.0000" ctype="SpriteObjectData">
                     <Size X="207.0000" Y="106.0000" />
                     <Children>
-                      <AbstractNodeData Name="anmright" ActionTag="-1125308458" Tag="29" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="103.5000" RightMargin="103.5000" TopMargin="53.0000" BottomMargin="53.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                      <AbstractNodeData Name="anmrightcsd" ActionTag="-1125308458" Tag="29" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="103.5000" RightMargin="103.5000" TopMargin="53.0000" BottomMargin="53.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="103.5000" Y="53.0000" />
@@ -280,7 +280,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="propertycsd" ActionTag="1581980232" Tag="32" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="60.0000" RightMargin="60.0000" TopMargin="267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="propertycsd" Visible="False" ActionTag="1581980232" Tag="32" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="60.0000" RightMargin="60.0000" TopMargin="267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="960.0000" Y="1440.0000" />
                 <Children>
                   <AbstractNodeData Name="Panel_4_0" ActionTag="2070890150" Tag="65" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="-60.0000" RightMargin="-60.0000" TopMargin="-267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="127" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
@@ -423,10 +423,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="changecsd" ActionTag="-1538570260" Tag="43" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="60.0000" RightMargin="60.0000" TopMargin="267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="changecsd" Visible="False" ActionTag="-1538570260" Tag="43" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="60.0000" RightMargin="60.0000" TopMargin="267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="960.0000" Y="1440.0000" />
                 <Children>
-                  <AbstractNodeData Name="Panel_4" ActionTag="-66426039" Tag="64" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="-60.0000" RightMargin="-60.0000" TopMargin="-267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="127" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+                  <AbstractNodeData Name="Panel_4" ActionTag="-66426039" Tag="64" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="-60.0000" RightMargin="-60.0000" TopMargin="-267.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="127" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="1080.0000" Y="1707.0000" />
                     <AnchorPoint ScaleX="0.5000" />
                     <Position X="480.0000" />
@@ -521,16 +521,44 @@
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Sprite_5" ActionTag="186884969" Tag="51" IconVisible="False" LeftMargin="201.7372" RightMargin="551.2628" TopMargin="397.5378" BottomMargin="936.4621" ctype="SpriteObjectData">
-                    <Size X="207.0000" Y="106.0000" />
+                  <AbstractNodeData Name="Panel_38" ActionTag="-1666218532" Tag="123" IconVisible="False" LeftMargin="194.0000" RightMargin="566.0000" TopMargin="333.0000" BottomMargin="907.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+                    <Size X="200.0000" Y="200.0000" />
+                    <Children>
+                      <AbstractNodeData Name="Sprite_5" ActionTag="186884969" Tag="51" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-3.5000" RightMargin="-3.5000" TopMargin="87.0000" BottomMargin="7.0000" ctype="SpriteObjectData">
+                        <Size X="207.0000" Y="106.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="100.0000" Y="60.0000" />
+                        <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.3000" />
+                        <PreSize X="1.0350" Y="0.5300" />
+                        <FileData Type="PlistSubImage" Path="animal-bottom.png" Plist="Resource/atlas/B-common.plist" />
+                        <BlendFunc Src="1" Dst="771" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="changestagecsd" ActionTag="-2095729461" Tag="122" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="100.0000" RightMargin="100.0000" TopMargin="100.0000" BottomMargin="100.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+                        <Size X="0.0000" Y="0.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="100.0000" Y="100.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                    </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="305.2372" Y="989.4621" />
-                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <Position X="294.0000" Y="1007.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3180" Y="0.6871" />
-                    <PreSize X="0.2156" Y="0.0736" />
-                    <FileData Type="PlistSubImage" Path="animal-bottom.png" Plist="Resource/atlas/B-common.plist" />
-                    <BlendFunc Src="1" Dst="771" />
+                    <PrePosition X="0.3063" Y="0.6993" />
+                    <PreSize X="0.2083" Y="0.1389" />
+                    <SingleColor A="255" R="150" G="200" B="255" />
+                    <FirstColor A="255" R="150" G="200" B="255" />
+                    <EndColor A="255" R="255" G="255" B="255" />
+                    <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="Image_8" ActionTag="1557292974" Tag="52" IconVisible="False" LeftMargin="187.5034" RightMargin="187.4966" TopMargin="517.7567" BottomMargin="777.2433" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="7" Scale9Height="5" ctype="ImageViewObjectData">
                     <Size X="585.0000" Y="145.0000" />
@@ -564,7 +592,7 @@
                     <PreSize X="0.6250" Y="0.2118" />
                     <FileData Type="PlistSubImage" Path="dialog-1-2.png" Plist="Resource/atlas/B-common.plist" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="changeTV" ActionTag="331531470" Tag="66" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="228.0000" RightMargin="228.0000" TopMargin="712.0317" BottomMargin="463.9683" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" ctype="PageViewObjectData">
+                  <AbstractNodeData Name="changeTV" ActionTag="331531470" Tag="66" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="228.0000" RightMargin="228.0000" TopMargin="712.0317" BottomMargin="463.9683" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" ctype="PageViewObjectData">
                     <Size X="504.0000" Y="264.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="480.0000" Y="595.9683" />
@@ -622,7 +650,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Panel_3" ActionTag="317889564" Tag="57" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="377.8514" RightMargin="382.1486" TopMargin="994.5884" BottomMargin="315.4117" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <AbstractNodeData Name="Panel_3" ActionTag="317889564" Tag="57" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="377.8880" RightMargin="382.1120" TopMargin="994.5520" BottomMargin="315.4480" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="200.0000" Y="130.0000" />
                     <Children>
                       <AbstractNodeData Name="btnDown" ActionTag="-238953304" CallBackType="Click" CallBackName="btnDown" UserData="sb" Tag="58" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-7.0000" RightMargin="-7.0000" TopMargin="13.5000" BottomMargin="13.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="184" Scale9Height="81" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -714,7 +742,7 @@
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="477.8514" Y="380.4117" />
+                    <Position X="477.8880" Y="380.4480" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.4978" Y="0.2642" />

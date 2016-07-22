@@ -5,27 +5,31 @@ local AnimalCell = import(".AnimalCell")
 
 function AnimalMain:onCreate()
     self:get():move(0,0)
-
-    self.cellx = 172
-    self.celly = 182
-    
-    self.changeCellX = 126
-    self.changeCellY = 132
-    
-    local anmdata = {}
-    for i=6,18 do
-        table.insert(anmdata,i)
-    end
-    helper.saveSloterData(SLOTER.animal_have,anmdata)
-    
-    self.have = self:getAnmHave()
-    
+--
+--    self.cellx = 172
+--    self.celly = 182
+--    
+--    self.changeCellX = 126
+--    self.changeCellY = 132
+--    
+--    local anmdata = {}
+--    for i=1,12 do
+--        table.insert(anmdata,i)
+--    end
+--    helper.saveSloterData(SLOTER.animal_have,anmdata)
+--    
+--    self.have = self:getAnmHave()
+--    
 --    local anmset = {}
---    table.insert(anmset,3)
---    table.insert(anmset,7)
---    helper.saveSloterData(SLOTER.animal_set,anmset)
-
-    self:initView()
+--    anmset[1] = 1
+--    anmset[2] = 2
+--    helper.saveSloterData(SLOTER.animal_stage,anmset)
+--    
+--    self.mainCell = {}
+--    self.changeCell = {}
+    
+--    self:initView()
+    
 end
 
 function AnimalMain:onClick(path,node,funcName)
@@ -62,13 +66,13 @@ function AnimalMain:onClick(path,node,funcName)
     elseif funcName == "btnAnmRight" then
         local function btnCallback(node,eventType)
             print("btnAnmRight")
-            self:showChangeCsd()
+            self:showChangeCsd(false)
         end
         return btnCallback
     elseif funcName == "btnAnmLeft" then
         local function btnCallback(node,eventType)
             print("btnAnmLeft")
-            self:showChangeCsd()
+            self:showChangeCsd(true)
         end
         return btnCallback
     elseif funcName == "btnCloseChange" then
@@ -93,15 +97,60 @@ function AnimalMain:onClick(path,node,funcName)
 end
 
 function AnimalMain:initView()
-    
     self:setMainCell()
     self.changecsd:hide()
     self.propertycsd:hide()
+    
+    local anmstage = LinkUtil:getStageAnimal()
+    self.stageleft = anmstage[1]
+    self.stageright = anmstage[2]
+    
+    if self.stageleft and self.stageleft ~= 0 then
+        local sp = display.newSprite(string.format("#anm-%s.png",self.stageleft))
+        sp:addTo(self.anmleftcsd)
+    end
+    
+    if self.stageright and self.stageright ~= 0 then
+        local sp = display.newSprite(string.format("#anm-%s.png",self.stageright))
+        sp:addTo(self.anmrightcsd)
+    end
 end
 
-function AnimalMain:showChangeCsd()
-    self.changecsd:show()
+function AnimalMain:showChangeCsd(isLeft)
     self:setChangeCell()
+    
+    if isLeft then
+        local sp = display.newSprite(string.format("#anm-%s.png",self.stageleft))
+        self.changeId = self.stageleft
+--        self.changeCell[3]:setSelect()
+        sp:addTo(self.changestagecsd)
+    else
+        local sp = display.newSprite(string.format("#anm-%s.png",self.stageright))
+        self.changeId = self.stageright
+--        self.changeCell[8]:setSelect()
+        sp:addTo(self.changestagecsd)
+    end
+    
+    self:setChangeDown()
+    self.changecsd:show()
+end
+
+function AnimalMain:setChangeNo()
+    self.btnDown:hide()
+    self.btnUp:hide()
+    self.btnNotCan:show()
+end
+
+function AnimalMain:setChangeUp()
+    self.btnDown:hide()
+    self.btnUp:show()
+    self.btnNotCan:hide()
+end
+
+function AnimalMain:setChangeDown()
+    self.btnDown:show()
+    self.btnUp:hide()
+    self.btnNotCan:hide()
 end
 
 function AnimalMain:showPropertyCsd()
@@ -110,18 +159,20 @@ end
 
 
 function AnimalMain:setMainCell()
-    local data = self:getAnmList()
-    for page = 1,math.ceil(#data/8.0) do
+    self.allAnm = self:getAnmList()
+    for page = 1,math.ceil(#self.allAnm/8.0) do
         local layout = ccui.Layout:create()
         layout:setContentSize(cc.size(self.cellx*4,self.celly*2))
         for i = 1,8 do
-            if 8*(page-1) +i <= #data then
-                local cell = AnimalCell:create(self:getApp(),"cell")
+            if 8*(page-1) +i <= #self.allAnm then
                 local index = (page-1)*8 +i
+                local cell = AnimalCell:create(self:getApp(),"cell")
+                table.insert(self.mainCell,cell)
+                
                 if (index <= self:getAnmHaveNum()) then
-                    cell:initView(data[index],true,false)
+                    cell:initView(self.allAnm[index],true,false,1)
                 else
-                    cell:initView(data[index],false,false)
+                    cell:initView(self.allAnm[index],false,false,1)
                 end
                 local id = i % 8
                 if id == 0 then
@@ -141,15 +192,15 @@ function AnimalMain:setMainCell()
 end
 
 function AnimalMain:setChangeCell()
-    dump(self.have)
     for page = 1,math.ceil(#self.have/8.0) do
         local layout = ccui.Layout:create()
         layout:setContentSize(cc.size(self.changeCellX*4,self.changeCellY*2))
         for i = 1,8 do
             if 8*(page-1) +i <= #self.have then
-                local cell = AnimalCell:create(self:getApp(),"changecell")
                 local index = (page-1)*8+i
-                cell:initView(self.have[index],true,false)
+                local cell = AnimalCell:create(self:getApp(),"changecell")
+                table.insert(self.changeCell,cell)
+                cell:initView(self.have[index],true,false,2)
                 
                 local ptid = i%8
                 if ptid == 0 then

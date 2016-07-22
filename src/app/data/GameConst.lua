@@ -174,6 +174,34 @@ LEVEL_MSG[19] = { EXP = 100, T = {70,80},G = {},D = {},B = {}}
 LEVEL_MSG[20] = { EXP = 100, T = {70,80},G = {},D = {},B = {}}
 LEVEL_MSG[21] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
 LEVEL_MSG[22] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[23] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[24] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[25] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[26] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[27] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[28] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[29] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[30] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[31] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[32] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[33] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[34] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[35] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[36] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[37] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[38] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[39] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[40] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[41] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[42] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[43] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[44] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[45] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[46] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[47] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[48] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[49] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
+LEVEL_MSG[50] = { EXP = 100, T = {80,90},G = {},D = {},B = {}}
 
 
 -----------------------------------
@@ -230,27 +258,6 @@ LAYERS = {
 
 }
 
-SINGLE_LEVEL = {}
-
-SINGLE_LEVEL[1] = "SINGLE_LEVEL1"
-SINGLE_LEVEL[2] = "SINGLE_LEVEL2"
-SINGLE_LEVEL[3] = "SINGLE_LEVEL3"
-SINGLE_LEVEL[4] = "SINGLE_LEVEL4"
-SINGLE_LEVEL[5] = "SINGLE_LEVEL5"
-SINGLE_LEVEL[6] = "SINGLE_LEVEL6"
-SINGLE_LEVEL[7] = "SINGLE_LEVEL7"
-SINGLE_LEVEL[8] = "SINGLE_LEVEL8"
-SINGLE_LEVEL[9] = "SINGLE_LEVEL9"
-SINGLE_LEVEL[10] = "SINGLE_LEVEL10"
-SINGLE_LEVEL[11] = "SINGLE_LEVEL11"
-SINGLE_LEVEL[12] = "SINGLE_LEVEL12"
-SINGLE_LEVEL[13] = "SINGLE_LEVEL13"
-SINGLE_LEVEL[14] = "SINGLE_LEVEL14"
-SINGLE_LEVEL[15] = "SINGLE_LEVEL15"
-SINGLE_LEVEL[16] = "SINGLE_LEVEL16"
-SINGLE_LEVEL[17] = "SINGLE_LEVEL17"
-SINGLE_LEVEL[18] = "SINGLE_LEVEL18"
-
 
 SLOTER = {
     user_id = "user_id",
@@ -263,7 +270,7 @@ SLOTER = {
     single_level = "single_level",
     
     animal_have = "animal_have",
-    animal_set = "animal_set",
+    animal_stage = "animal_stage",
 
 
 

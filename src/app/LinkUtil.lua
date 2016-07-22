@@ -91,6 +91,12 @@ function LinkUtil:getStrMinTime(count)
     return timeStr
 end
 
+----------------------------------------
+--获取上场的宠物
+--
+function LinkUtil:getStageAnimal()
+    return helper.getSloterData(SLOTER.animal_stage)
+end
 
 
 return LinkUtil
