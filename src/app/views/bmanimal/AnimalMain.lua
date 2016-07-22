@@ -5,30 +5,31 @@ local AnimalCell = import(".AnimalCell")
 
 function AnimalMain:onCreate()
     self:get():move(0,0)
---
---    self.cellx = 172
---    self.celly = 182
---    
---    self.changeCellX = 126
---    self.changeCellY = 132
---    
---    local anmdata = {}
---    for i=1,12 do
---        table.insert(anmdata,i)
---    end
---    helper.saveSloterData(SLOTER.animal_have,anmdata)
---    
---    self.have = self:getAnmHave()
---    
---    local anmset = {}
---    anmset[1] = 1
---    anmset[2] = 2
---    helper.saveSloterData(SLOTER.animal_stage,anmset)
---    
---    self.mainCell = {}
---    self.changeCell = {}
+
+    self.cellx = 172
+    self.celly = 182
     
---    self:initView()
+    self.changeCellX = 126
+    self.changeCellY = 132
+    
+    local anmdata = {}
+    
+    for i=2,16 do
+        table.insert(anmdata,i)
+    end
+    helper.saveSloterData(SLOTER.animal_have,anmdata)
+    
+    self.have = self:getAnmHave()
+    
+    local anmset = {}
+    anmset[1] = 3
+    anmset[2] = 9
+    helper.saveSloterData(SLOTER.animal_stage,anmset)
+    
+    self.mainCell = {}
+    self.changeCell = {}
+    
+    self:initView()
     
 end
 
@@ -78,7 +79,7 @@ function AnimalMain:onClick(path,node,funcName)
     elseif funcName == "btnCloseChange" then
         local function btnCallback(node,eventType)
             print("btnCloseChange")
-            self.changecsd:hide()
+            self:btnCloseChangeClick()
         end
         return btnCallback
     elseif funcName == "btnCloseProperty" then
@@ -122,15 +123,14 @@ function AnimalMain:showChangeCsd(isLeft)
     if isLeft then
         local sp = display.newSprite(string.format("#anm-%s.png",self.stageleft))
         self.changeId = self.stageleft
---        self.changeCell[3]:setSelect()
         sp:addTo(self.changestagecsd)
     else
         local sp = display.newSprite(string.format("#anm-%s.png",self.stageright))
         self.changeId = self.stageright
---        self.changeCell[8]:setSelect()
         sp:addTo(self.changestagecsd)
     end
     
+    self.changeCell[self.changeId]:setSelect()
     self:setChangeDown()
     self.changecsd:show()
 end
@@ -167,8 +167,7 @@ function AnimalMain:setMainCell()
             if 8*(page-1) +i <= #self.allAnm then
                 local index = (page-1)*8 +i
                 local cell = AnimalCell:create(self:getApp(),"cell")
-                table.insert(self.mainCell,cell)
-                
+                self.mainCell[self.allAnm[index]] = cell
                 if (index <= self:getAnmHaveNum()) then
                     cell:initView(self.allAnm[index],true,false,1)
                 else
@@ -199,7 +198,7 @@ function AnimalMain:setChangeCell()
             if 8*(page-1) +i <= #self.have then
                 local index = (page-1)*8+i
                 local cell = AnimalCell:create(self:getApp(),"changecell")
-                table.insert(self.changeCell,cell)
+                self.changeCell[self.have[index]] = cell
                 cell:initView(self.have[index],true,false,2)
                 
                 local ptid = i%8
@@ -242,6 +241,29 @@ function AnimalMain:turnChangePage(sign)
     self.changeTV:scrollToPage(pageindex)
 end
 
+----------------------------------------
+--btn>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+function AnimalMain:btnCloseChangeClick()
+    self.changeCell[self.changeId]:setNoSelect()
+    self.changecsd:hide()
+    self.changeId = nil
+end
+
+--btn>>>>>>>>>>>>>>>>>>>>>>>>>>>
+----------------------------------------------
+
+----------------------------------------
+--change界面当前选中id
+--
+function AnimalMain:getChangeId()
+    return self.changeId
+end
+
+function AnimalMain:setChangeId(num)
+    self.changeCell[self.changeId]:setNoSelect()
+    self.changeCell[num]:setSelect()
+    self.changeId = num
+end
 
 ----------------------------------------
 --根据坐标id获取cell位置

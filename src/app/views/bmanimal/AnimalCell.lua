@@ -48,6 +48,17 @@ function AnimalCell:btnAnmCellClick()
     if self.belong == 1 then
         AppViews:getView(LAYERS.animal_main):showPropertyCsd()
     elseif self.belong == 2 then
+        self:btnChangeCell()
+    end
+end
+
+function AnimalCell:btnChangeCell()
+    local select = AppViews:getView(LAYERS.animal_main):getChangeId()
+    
+    if select == self.anmId then
+        return
+    else
+        AppViews:getView(LAYERS.animal_main):setChangeId(self.anmId)
     end
 end
 
